@@ -1,0 +1,246 @@
+.hero{
+    width: 100vw;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.hero img{
+    width: 10vw;
+    height: 10vh;
+    margin-top: 10px;
+    margin-right:98vw ;
+}
+
+.one{
+    width: 100vw;
+    height: 10vh;
+    background:linear-gradient(aqua,white);
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color-scheme: black;
+    display: flex;
+
+     
+}
+.one ul li{
+     list-style: none;
+     display: inline-block;
+    justify-content: end;
+     margin-left: 20px;
+     
+}
+.video-bg{
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ margin-left: 30vw;
+ height: 80vh;
+
+}
+
+
+.menu {
+width: 20vw;
+height: 50vh;
+transition : 0.5s ease;
+transform: translate(-180px);
+margin-top: 15vh;
+
+
+}
+ 
+h1{
+    color:purple;
+    text-align: left;
+    font-weight:800 ;
+    padding: 10px;
+    padding right :30px;
+    pointer-events:none;
+}
+#ps{
+    list-style: none;
+}
+@import url(*https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap*);
+
+#ps a{
+    font-weight:500 ;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition:0.2s ease-out;
+    font-family:'Poppins';
+    }
+    input{
+        display:none;
+        visibility: hidden;
+        -webkit-appearance: none;
+    }
+    .toggle{
+         position: absolute;
+         height:30px;
+         width: 30px;
+         top: 28vh;
+         left: 85px;
+         background-color: white;
+         box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+         z-index: 1;
+         border-radius: 2px;
+         cursor: pointer;
+    }
+    .toggle .common{
+        position: absolute;
+        height: 2px;
+        width: 20px;
+        background-color: aqua;
+        border-radius: 50px;
+        transition: o.3s ease;
+
+    }
+.toggle .topline{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .mline{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.toggle .bottomline{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 
+input:checked ~ .toggle .topline{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+
+input:checked ~ .toggle .bottomline{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+
+
+input:checked ~ .toggle .mline{
+    opacity: 0;
+    transform: translate(20px);
+}
+input:checked ~ .menu{
+     transform: translate(0);
+     box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+
+.appointment{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(red,white);
+}
+ 
+.con1{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.con2{
+    width: 400px;
+    height: 20px;
+    background-color:white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.con3{
+    width: 100px;
+    height: 40px;
+    background-color: white; 
+    margin-left: 50px;
+}
+.con4{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 60px;
+}
+.con5{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin-left: 50px;
+}
+.con6{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 60px;
+}
+.con7{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    margin-left:50px ;
+}
+.con8{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 60px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(red,white);
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap:30px;
+}
+.q{
+    width: 150px;
+    height: 50px;
+    
+    margin-top:70px ;
+}
+.one{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px ;
+    
+}
+.r{
+    width: 150px;
+    height: 50px;
+    
+    
+}
+s{
+    width: 150px;
+    height: 50px;
+    
+   margin-top: 100px;
+
+}
+.t{
+    width: 150px;
+    height:50px;
+    margin-top: ;
+    
+}

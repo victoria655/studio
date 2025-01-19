@@ -1,0 +1,152 @@
+.videoreviews{
+    width: 100vw;
+    height: 100vh;
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(yellow,white);
+}
+.home{
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(orange,white);
+}
+
+.dashboard{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 200px ;
+}
+.item1{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: aqua;
+}
+.item2{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: azure;
+}
+.item3{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: blue;
+}
+.item4{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: blueviolet;
+}
+.item5{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: black;
+}
+.item6{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: blanchedalmond;
+}
+
+.item7{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: beige;
+}
+.item8{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    background-color: beige;
+    border-color: black;
+}
+.item9{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+}
+.item10{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-image:  url(pic10.jpg);
+}
+    
+
+.dashboard{
+ display: grid;
+ grid-template-columns: 350px 350px 350px 350px 350px;
+ grid-template-rows: 500px 500px;
+ justify-content: stretch;
+ grid-gap: 20px;
+}
+.item1 img{
+    width: 300px;
+    height: 300px;
+}
+.item2 img{
+    width: 300px;
+    height: 300px;
+}
+.item3 img{
+    width: 300px;
+    height: 300px;
+}
+.item4 img{
+    width: 300px;
+    height: 300px;
+}
+.item5 img{
+    width: 300px;
+    height: 300px;
+}
+.item6 img{
+    width: 300px;
+    height: 300px;
+}
+.item7 img{
+    width: 300px;
+    height: 300px;
+}
+.item8 img{
+    width: 300px;
+    height: 300px;
+}
+.item9 img{
+    width: 300px;
+    height: 300px;
+}
+.item10 img{
+    width: 300px;
+    height: 300px;
+}
+
